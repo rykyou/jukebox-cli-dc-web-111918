@@ -31,6 +31,20 @@ end
 
 
 def play(my_songs)
+    puts "Please enter a song name or number:"
+  user_input = gets.chomp 
+  output = ""
+  array.each_with_index do |ele, index|
+    index = index + 1
+    if user_input.to_i == index || user_input == ele
+      output = "Playing #{ele}"
+    end 
+  end 
+  if output.length > 0
+    puts output
+  else
+    puts "Invalid input, please try again"
+  end
   #this method is slightly different!
   #you should still ask the user for input and collect their song choice
   #this time, only allow user's to input a song name
