@@ -20,8 +20,6 @@ def help
 - exit : exits this program"
 end
 
-
-
 def list(my_songs)
   my_songs.each do |hash|
     keys = hash.keys 
@@ -29,9 +27,8 @@ def list(my_songs)
   end
 end
 
-
 def play(my_songs)
-    puts "Please enter a song name or number:"
+  puts "Please enter a song name:"
   user_input = gets.chomp 
   output = ""
   array.each_with_index do |ele, index|
