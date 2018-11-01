@@ -7,7 +7,7 @@
 # "LiberTeens" => '/home/organized-revert-5689/jukebox-cli-dc-web-111918/jukebox-cli/audio/Emerald-Park/02.mp3',
 # "Hamburg" =>  '/home/organized-revert-5689/jukebox-cli-dc-web-111918/jukebox-cli/audio/Emerald-Park/03.mp3',
 # "Guiding Light" => '/home/organized-revert-5689/jukebox-cli-dc-web-111918/jukebox-cli/audio/Emerald-Park/04.mp3',
-# "Wolf" => '< path to this directory >/jukebox-cli/audio/Emerald-Park/05.mp3',
+# "Wolf" => '/home/organized-revert-5689/jukebox-cli-dc-web-111918jukebox-cli/audio/Emerald-Park/05.mp3',
 # "Blue" => '< path to this directory >/jukebox-cli/audio/Emerald-Park/06.mp3',
 # "Graduation Failed" => '< path to this directory >/jukebox-cli/audio/Emerald-Park/07.mp3'
 # }
