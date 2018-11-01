@@ -2,15 +2,15 @@
 #make sure to edit the value of each key to replace < path to this directory >
 #with the correct path to this directory on your computer
 
-# my_songs = {
-# "Go Go GO" => '/home/organized-revert-5689/jukebox-cli-dc-web-111918/lib/jukebox-cli/audio/Emerald-Park/01.mp3',
-# "LiberTeens" => '/home/organized-revert-5689/jukebox-cli-dc-web-111918/lib/jukebox-cli/audio/Emerald-Park/02.mp3',
-# "Hamburg" =>  '/home/organized-revert-5689/jukebox-cli-dc-web-111918/lib/jukebox-cli/audio/Emerald-Park/03.mp3',
-# "Guiding Light" => '/home/organized-revert-5689/jukebox-cli-dc-web-111918/lib/jukebox-cli/audio/Emerald-Park/04.mp3',
-# "Wolf" => '/home/organized-revert-5689/jukebox-cli-dc-web-111918/lib/jukebox-cli/audio/Emerald-Park/05.mp3',
-# "Blue" => '/home/organized-revert-5689/jukebox-cli-dc-web-111918/lib/jukebox-cli/audio/Emerald-Park/06.mp3',
-# "Graduation Failed" => '/home/organized-revert-5689/jukebox-cli-dc-web-111918/lib/jukebox-cli/audio/Emerald-Park/07.mp3'
-# }
+my_songs = {
+ "Go Go GO" => '/home/organized-revert-5689/jukebox-cli-dc-web-111918/lib/jukebox-cli/audio/Emerald-Park/01.mp3',
+ "LiberTeens" => '/home/organized-revert-5689/jukebox-cli-dc-web-111918/lib/jukebox-cli/audio/Emerald-Park/02.mp3',
+ "Hamburg" =>  '/home/organized-revert-5689/jukebox-cli-dc-web-111918/lib/jukebox-cli/audio/Emerald-Park/03.mp3',
+ "Guiding Light" => '/home/organized-revert-5689/jukebox-cli-dc-web-111918/lib/jukebox-cli/audio/Emerald-Park/04.mp3',
+ "Wolf" => '/home/organized-revert-5689/jukebox-cli-dc-web-111918/lib/jukebox-cli/audio/Emerald-Park/05.mp3',
+ "Blue" => '/home/organized-revert-5689/jukebox-cli-dc-web-111918/lib/jukebox-cli/audio/Emerald-Park/06.mp3',
+ "Graduation Failed" => '/home/organized-revert-5689/jukebox-cli-dc-web-111918/lib/jukebox-cli/audio/Emerald-Park/07.mp3'
+ }
 
 def help
   #this method should be the same as in jukebox.rb
