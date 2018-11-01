@@ -21,10 +21,8 @@ def help
 end
 
 def list(my_songs)
-  my_songs.each do |hash|
-    keys = hash.keys 
-    keys.each_with_index {|song, index| puts "#{index + 1}. #{song}"}
-  end
+  keys = my_songs.keys 
+  keys.each_with_index {|song, index| puts "#{index + 1}. #{song}"}
 end
 
 def play(my_songs)
