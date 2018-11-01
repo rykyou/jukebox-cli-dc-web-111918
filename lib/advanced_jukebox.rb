@@ -33,15 +33,9 @@ def play(my_songs)
   keys = my_songs.keys
   keys.each do |song|
     if user_input == song
-      output = system "open #{my_songs[song]}"
+      system "open #{my_songs[song]}"
     end 
   end 
-  
-  if output.length > 0
-    puts output
-  else
-    puts "Invalid input, please try again"
-  end
 end
 
 def exit_jukebox
