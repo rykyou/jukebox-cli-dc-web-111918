@@ -29,14 +29,14 @@ def play(my_songs)
   puts "Please enter a song name:"
   user_input = gets.chomp 
   output = ""
-  my_songs.each do |hash|
-    keys = hash.keys
-    keys.each do |song|
-      if user_input == song
-        output = system "open #{hash[song]}"
-      end 
+  
+  keys = my_songs.keys
+  keys.each do |song|
+    if user_input == song
+      output = system "open #{my_songs[song]}"
     end 
   end 
+  
   if output.length > 0
     puts output
   else
