@@ -23,7 +23,7 @@ end
 def list(my_songs)
   my_songs.each do |hash|
     keys = hash.keys 
-    keys.each_with_index do {|song, index| puts "#{index + 1}. #{song}"}
+    keys.each_with_index {|song, index| puts "#{index + 1}. #{song}"}
   end
 end
 
